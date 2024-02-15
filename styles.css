@@ -1,0 +1,93 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Comic Neue";
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    min-width: 500px;
+    min-height: 350px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #eee;
+    width: 470px;
+    height: 300px;
+    padding: 1rem;
+}
+
+.container {
+    display: flex;
+    padding: 0 .5rem .5rem
+}
+
+.title-container {
+    height: 20%;
+    justify-content: space-between;
+}
+
+.content-container {
+    height: 60%;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.title-box {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 100%;
+}
+
+.box {
+    width: 50%;
+
+}
+.description-box {
+    margin: .5em 0;
+    padding-right: .5em;
+}
+
+.data-box {
+    padding-left: .5em;
+}
+
+.description {
+    padding-bottom: .5rem;
+    margin-bottom: .5rem;
+}
+
+input {
+    width: 100%;
+    margin: .25em 0;
+    padding: .25em 0;
+    background-color: #eee;
+    border: solid #444;
+    border-width: 0 0 1px;
+}
+
+input:focus {
+    outline: none;
+    border: solid #000;
+    border-width: 0 0 1px;
+}
+
+button {
+    padding: .25em .5em;
+    background-color: #aaa;
+    border: 0;
+}
